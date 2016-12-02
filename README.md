@@ -4,7 +4,7 @@ A Python wrapper for sgx_tcrypto library. The "sample_libcrypto" in SGX sources 
 
 This project contains files from different sources, see the license header in each file. 
 
-The main file is `sgx_crypto_wrapper.py`. It wraps the shared object `crypto_wrapper.so`, which can be rebuilt by running `create_shared_object.sh`.
+The main file is `sgx_crypto_wrapper.py`. It wraps the shared object `crypto_wrapper.so`, which can be rebuilt by running `create_shared_object.sh`. Runing it as is run some non-axaustive unit tests. Look at the tests to figure out how to use this module.
 
 ## Dependencies
 ### 1. The SGX SDK source code for Linux, which can be cloned by:
